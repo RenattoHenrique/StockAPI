@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>GERENCIADOR DE PRODUTOS</h1>
+    
+    <form id="productForm">
+        <input type="text" id="name" placeholder="Nome do Produto" required>
+        <input type="text" id="supplier" placeholder="Fornecedor" required>
+        <input type="number" id="cost" placeholder="Custo" required>
+        <input type="number" id="price" placeholder="Preço" required>
+        <button type="submit">Adicionar Produto</button>
+        <button id="loadProductsBtn">Listar Produtos</button>
+
+    </form>
+    
+    <h2>Lista de Produtos</h2>
+    <ul id="productList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
